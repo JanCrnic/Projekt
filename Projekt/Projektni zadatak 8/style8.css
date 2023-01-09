@@ -7,8 +7,8 @@ header {
 	display: block;
 	width: 100%;
 }
-.slika {
-	background-image: url("Messi.jpg.jpg");
+.slika{
+	background-image: url("img/banner-html5.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -96,7 +96,18 @@ hr {
 	font-size: 90%;
 	text-align: center;
 }
-
+#gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border: 1px solid black;
+}
+#gallery figcaption {
+	font-size: 90%;
+	height: 50px;
+	text-align: center;
+}
 figure {
 	padding: 0.5em;
 	margin: 0 1em 0.5em 1em;
@@ -110,11 +121,38 @@ figcaption {
 img {
 	width: 100%;
 }
-video {
-	margin: 0 1em 1em 1em;
-	float: left;
+#contact {
+	margin: 1em
+}
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
 }
 
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
 footer {
 	background-color: #333;
 	padding: 0.1em;
@@ -128,6 +166,7 @@ footer p {
 footer img {
 	width: 20px;
 }
+
 @media screen and (max-width: 900px) {
 	figure {
 		width: 90%;
@@ -140,5 +179,16 @@ footer img {
 	}
 	.news time {
 		margin: 0 0 0 1em;
+	}
+	#news_gallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#news_gallery figcaption {
+		font-size: 90%;
+		text-align: center;
 	}
 }
