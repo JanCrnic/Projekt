@@ -8,7 +8,7 @@ header {
 	width: 100%;
 }
 .slika {
-	background-image: url("Messi.jpg");
+	background-image: url("img/Messi.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
