@@ -7,14 +7,26 @@ header {
 	display: block;
 	width: 100%;
 }
-.slika{
-	background-image: url("img/banner-html5.jpg");
+.hero-image {
+	background-image: url("img/male-soccer-football-player-training-action-isolated-gradient-studio-neon-light_155003-15991.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	height: 500px;
 }
+
+
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -61,12 +73,6 @@ hr {
 	border: 1px dotted #27318b;
 	clear: both;
 }
-.news img {
-	width: 12%;
-	float: left;
-	padding: 0.5em;
-	margin: 0 1em 0.5em 0.5em;
-}
 .news h2 {
 	margin: 0.5em 0.7em;
 	font-size: 1.5em;
@@ -85,42 +91,7 @@ hr {
 	font-weight: bold;
 	margin: 0.8em 1em 1.5em 1em;
 }
-#news_gallery figure {
-	padding: 0.5em;
-	margin: 0 1em 0.5em 1em;
-	float: left;
-	width: 10%;
-	border: 1px solid black;
-}
-#news_gallery figcaption {
-	font-size: 90%;
-	text-align: center;
-}
-#gallery figure {
-	padding: 0.5em;
-	margin: 0 1em 0.5em 1em;
-	float: left;
-	width: 22%;
-	border: 1px solid black;
-}
-#gallery figcaption {
-	font-size: 90%;
-	height: 50px;
-	text-align: center;
-}
-figure {
-	padding: 0.5em;
-	margin: 0 1em 0.5em 1em;
-	float: left;
-	width: 35%;
-	border: 1px solid black;
-}
-figcaption {
-	font-size: 90%;
-}
-img {
-	width: 100%;
-}
+
 #contact {
 	margin: 1em
 }
@@ -128,30 +99,30 @@ label {
 	display: block;
 }
 input[type=text], input[type=email], select, textarea {
-    width: 50%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 95%;
 }
 
 input[type=submit] {
-    display: block;
+	display: block;
 	background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
 	width: 25%;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+	background-color: #45a049;
 }
 footer {
 	background-color: #333;
@@ -167,28 +138,70 @@ footer img {
 	width: 20px;
 }
 
-@media screen and (max-width: 900px) {
-	figure {
-		width: 90%;
-		margin: 1em;
-	}
-	.news img {
-		width: 95%;
-		padding: 0.5em;
-		margin: 0 1em 0.5em 0.5em;
-	}
-	.news time {
-		margin: 0 0 0 1em;
-	}
-	#news_gallery figure {
-		padding: 0.5em;
-		margin: 0 1em 0.5em 1em;
-		float: left;
-		width: 90%;
-		border: 1px solid black;
-	}
-	#news_gallery figcaption {
-		font-size: 90%;
-		text-align: center;
-	}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.column a {
+	display: flex;
+	justify-content: center;
+}
+
+.column figcaption {
+	text-align: center;
+}
+
+
+/* Style the images inside the grid */
+.column img {
+	cursor: pointer;
+}
+
+.column img:hover {
+	opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	border: 1px solid black !important;
+}
+
+img {
+	width: 250px !important;
+	height: 250px !important;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+	position: relative;
+	display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
 }
