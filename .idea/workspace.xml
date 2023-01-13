@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a194cd33-25eb-4305-99ea-ee670e2b5df0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Projekt/Projektni zadatak 5/projektni zadatak 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/Projektni zadatak 5/projektni zadatak 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news-5.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K63Bdi8J2ulmQNc2CvBPFg9WGf" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marko.stuban/Documents/GitHub/Projekt/Projekt/Projektni zadatak 6/news&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 6/news" />
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 6" />
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 5" />
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 9" />
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 8" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 5" />
+      <recent name="$PROJECT_DIR$/Projekt" />
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 3" />
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 2" />
+      <recent name="$PROJECT_DIR$/Projekt/Projektni zadatak 7" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a194cd33-25eb-4305-99ea-ee670e2b5df0" name="Changes" comment="" />
+      <created>1673281071222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673281071222</updated>
+      <workItem from="1673281072511" duration="1981000" />
+      <workItem from="1673289908709" duration="457000" />
+      <workItem from="1673342509552" duration="599000" />
+      <workItem from="1673623944228" duration="1062000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
