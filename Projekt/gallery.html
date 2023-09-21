@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- End CSS -->
+
+    <title>Example page - Gallery</title>
+</head>
+<body class="">
+<header>
+    <div class="slika"></div>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <figure class="gallery-row">
+        <div class="gallery-column">
+            <a href="./1.webp" target="_blank"> <img src="./1.webp" alt="Nature"> </a>
+            <figcaption>Mbappe</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./2.jpg" target="_blank"> <img src="./2.jpg" alt="Nature"> </a>
+            <figcaption>De Bruyne</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./3.jpg" target="_blank"> <img src="./3.jpg" alt="Nature"> </a>
+            <figcaption>Soccer player</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./4.webp" target="_blank"> <img src="./4.webp" alt="Nature"> </a>
+            <figcaption>Soccer team</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./5.png" target="_blank"> <img src="./5.png" alt="Nature"> </a>
+            <figcaption>Bayern player</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./6.jpg" target="_blank"> <img src="./6.jpg" alt="Nature"> </a>
+            <figcaption>Benzema</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./7.webp" target="_blank"> <img src="./7.webp" alt="Nature"> </a>
+            <figcaption>Ronaldo</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./8.jpeg" target="_blank"> <img src="./8.jpeg" alt="Nature"> </a>
+            <figcaption>Mbappe 2</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./9.jpg" target="_blank"> <img src="./9.jpg" alt="Nature"> </a>
+            <figcaption>Messi</figcaption>
+        </div>
+        <div class="gallery-column">
+            <a href="./10.webp" target="_blank"> <img src="./10.webp" alt="Nature"> </a>
+            <figcaption>Random player</figcaption>
+        </div>
+    </figure>
+
+    <!-- The expanding image container -->
+    <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+    </div>
+</main>
+<footer>
+    <p>Copyright &copy; 2023 Jan Crnić. <a href="https://github.com/JanCrnic/Projekt.git"><img class="gitlink"
+                                                                                               src="./github.png"
+                                                                                               title="Github"
+                                                                                               alt="Github"></a></p>
+</footer>
+</body>
+</html>
